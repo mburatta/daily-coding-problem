@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "typescript": "^5.4.5"
+  },
+  "packageManager": "yarn@4.1.1",
+  "devDependencies": {
+    "@sucrase/jest-plugin": "^3.0.0",
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "sucrase": "^3.35.0",
+    "ts-jest": "^29.1.2"
+  },
+  "scripts": {
+    "pretest": "NODE_ENV=test",
+    "test": "NODE_ENV=test yarn jest",
+    "posttest": "NODE_ENV=development",
+    "test:watch": "NODE_ENV=test yarn jest --watchAll"
+  }
+}
