@@ -16,6 +16,7 @@ module.exports = {
         'lcov'
     ],
     testMatch: [
-        '**/src/**/*.test.ts'
+        '**/src/**/*.test.ts',
+        '**/src/**/*.spec.ts'
     ]
 };
